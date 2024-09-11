@@ -1,0 +1,5 @@
+CONNECTOR_PATH = 'couch_wrapper.couchdb_connector'
+LOGGER_ERROR_PATH = CONNECTOR_PATH + '.LOGGER.error'
+LOGGER_DEBUG_PATH = CONNECTOR_PATH + '.LOGGER.debug'
+CONNECTOR_INIT_PATH = CONNECTOR_PATH + '.CouchDBConnectorBase.__init__'
+OS_ENVIRON_PATH = 'couch_wrapper.utils.environment.os.environ'
